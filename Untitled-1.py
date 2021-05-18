@@ -3,8 +3,8 @@ import re
 import requests
 
 
-randomHero1 = "https://superheroapi.com/api/537520747252406/" + str(randint(1,731))
-randomHero2 = "https://superheroapi.com/api/537520747252406/" + str(randint(1,731))
+randomHero1 = "https://superheroapi.com/api/INSERTAPIKEY/" + str(randint(1,731))
+randomHero2 = "https://superheroapi.com/api/INSERTAPIKEY/" + str(randint(1,731))
 
 
 character1 = requests.get(randomHero1).json()
